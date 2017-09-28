@@ -319,7 +319,7 @@ function _calcsRes()
 
     while [ "$gRes_RAW" != 0 ];
     do
-      read -p "Enter the Resolution you want to enable HiDPI(e.g. 1600x900, 1440x910, ...), enter 0 to quit: " gRes_RAW
+      read -p "Enter the Resolution you want to enable HiDPI(e.g. 1600x900, 1440x910, 2560x1440, 3840x2160 ...), enter 0 to quit: " gRes_RAW
 
       if [[ $gRes_RAW != 0 ]];
         then
